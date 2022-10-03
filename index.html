@@ -9,32 +9,52 @@
 
     <body>
         <div class="container">
-            <div class="display">0</div>
-            <div class="box">
-                <button>C</button>
-                <button>⌫</button>
-                <button>%</button>
-                <button>÷</button>
+            <div class="calc">
+                <div class="display">0</div>
+                <div class="box">
+                    <button data-key="27" class="clear left top function">C</button>
+                    <button data-key="8" class="backspace top function">⌫</button>
+                    <button data-key="" class="top function">%</button>
+                    <button data-key="111" class="size top right function">÷</button>
 
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>×</button>
+                    <button data-key="103" class="left color">7</button>
+                    <button data-key="104" class="color">8</button>
+                    <button data-key="105" class="color">9</button>
+                    <button data-key="106" class="right function">×</button>
 
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>−</button>
+                    <button data-key="100" class="left color">4</button>
+                    <button data-key="101" class="color">5</button>
+                    <button data-key="102" class="color">6</button>
+                    <button data-key="109" class="right function">−</button>
 
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
+                    <button data-key="97" class="left color">1</button>
+                    <button data-key="98" class="color">2</button>
+                    <button data-key="99" class="color">3</button>
+                    <button data-key="107" class="right function">+</button>
 
-                <button>?</button>
-                <button>0</button>
-                <button>.</button>
-                <button>=</button>
+                    <!-- <button>?</button> -->
+                    <button data-key="96" class="zero bot left color">0</button>
+                    <button data-key="110" class="size bot color">.</button>
+                    <button data-key="13" class="bot right function">=</button>
+                </div>
+                <audio data-key="27" src="sounds/touch.wav"></audio>
+                <audio data-key="8" src="sounds/touch.wav"></audio>
+                <audio data-key="111" src="sounds/touch.wav"></audio>
+                <audio data-key="103" src="sounds/touch.wav"></audio>
+                <audio data-key="104" src="sounds/touch.wav"></audio>
+                <audio data-key="105" src="sounds/touch.wav"></audio>
+                <audio data-key="106" src="sounds/touch.wav"></audio>
+                <audio data-key="100" src="sounds/touch.wav"></audio>
+                <audio data-key="101" src="sounds/touch.wav"></audio>
+                <audio data-key="102" src="sounds/touch.wav"></audio>
+                <audio data-key="109" src="sounds/touch.wav"></audio>
+                <audio data-key="97" src="sounds/touch.wav"></audio>
+                <audio data-key="98" src="sounds/touch.wav"></audio>
+                <audio data-key="99" src="sounds/touch.wav"></audio>
+                <audio data-key="107" src="sounds/touch.wav"></audio>
+                <audio data-key="96" src="sounds/touch.wav"></audio>
+                <audio data-key="110" src="sounds/touch.wav"></audio>
+                <audio data-key="13" src="sounds/result.wav"></audio>
             </div>
         </div>
 
